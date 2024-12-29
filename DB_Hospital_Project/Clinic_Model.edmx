@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Clinic_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="doc_id" />
+          </Key>
+          <Property Name="doc_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="doc_name" Type="varchar" MaxLength="255" />
+          <Property Name="doc_email" Type="varchar" MaxLength="255" />
+          <Property Name="doc_phone" Type="varchar" MaxLength="255" />
+          <Property Name="doc_password" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Nurse">
+          <Key>
+            <PropertyRef Name="nurse_id" />
+          </Key>
+          <Property Name="nurse_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nurse_name" Type="varchar" MaxLength="255" />
+          <Property Name="nurse_password" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name_" Type="varchar" MaxLength="255" />
+          <Property Name="phone" Type="varchar" MaxLength="255" />
+          <Property Name="email" Type="varchar" MaxLength="255" />
+          <Property Name="password_" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="Clinic_ModelStoreContainer">
+          <EntitySet Name="Doctor" EntityType="Self.Doctor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nurse" EntityType="Self.Nurse" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Clinic_Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Doctor">
+          <Key>
+            <PropertyRef Name="doc_id" />
+          </Key>
+          <Property Name="doc_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="doc_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="doc_email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="doc_phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="doc_password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Nurse">
+          <Key>
+            <PropertyRef Name="nurse_id" />
+          </Key>
+          <Property Name="nurse_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nurse_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="nurse_password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Patient">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="password_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Clinic_Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Doctors" EntityType="Self.Doctor" />
+          <EntitySet Name="Nurses" EntityType="Self.Nurse" />
+          <EntitySet Name="Patients" EntityType="Self.Patient" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Clinic_ModelStoreContainer" CdmEntityContainer="Clinic_Entities">
+          <EntitySetMapping Name="Doctors">
+            <EntityTypeMapping TypeName="Clinic_Model.Doctor">
+              <MappingFragment StoreEntitySet="Doctor">
+                <ScalarProperty Name="doc_id" ColumnName="doc_id" />
+                <ScalarProperty Name="doc_name" ColumnName="doc_name" />
+                <ScalarProperty Name="doc_email" ColumnName="doc_email" />
+                <ScalarProperty Name="doc_phone" ColumnName="doc_phone" />
+                <ScalarProperty Name="doc_password" ColumnName="doc_password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nurses">
+            <EntityTypeMapping TypeName="Clinic_Model.Nurse">
+              <MappingFragment StoreEntitySet="Nurse">
+                <ScalarProperty Name="nurse_id" ColumnName="nurse_id" />
+                <ScalarProperty Name="nurse_name" ColumnName="nurse_name" />
+                <ScalarProperty Name="nurse_password" ColumnName="nurse_password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patients">
+            <EntityTypeMapping TypeName="Clinic_Model.Patient">
+              <MappingFragment StoreEntitySet="Patient">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name_" ColumnName="name_" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password_" ColumnName="password_" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

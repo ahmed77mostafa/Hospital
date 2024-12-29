@@ -1,0 +1,145 @@
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.AssemblyReference.cache
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.g.cs
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.g.cs
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\App.g.cs
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.cache
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.lref
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe.config
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.pdb
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.baml
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.baml
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.g.resources
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.Properties.Resources.resources
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.GenerateResource.cache
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CoreCompileInputs.cache
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.exe
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.pdb
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorLogin.g.cs
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.g.cs
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorLogin.baml
+E:\Ahmed Mostafa\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.AssemblyReference.cache
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\App.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_Content.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.cache
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.lref
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.exe
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.pdb
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe.config
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.pdb
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.dll
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.dll
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.xml
+H:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.xml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.g.resources
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.Properties.Resources.resources
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.GenerateResource.cache
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CoreCompileInputs.cache
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CopyComplete
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.baml
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.g.cs
+H:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe.config
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.pdb
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.dll
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.dll
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.xml
+F:\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.xml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.AssemblyReference.cache
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\App.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_Content.g.cs
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.cache
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.lref
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.baml
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.g.resources
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.Properties.Resources.resources
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.GenerateResource.cache
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CoreCompileInputs.cache
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CopyComplete
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.exe
+F:\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.pdb
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe.config
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.pdb
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.dll
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.dll
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.xml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.xml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.AssemblyReference.cache
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\App.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_Content.g.cs
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.cache
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.lref
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.baml
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.g.resources
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.Properties.Resources.resources
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.GenerateResource.cache
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CoreCompileInputs.cache
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CopyComplete
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.exe
+H:\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.pdb
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe.config
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.exe
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\DB_Hospital_Project.pdb
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.dll
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.dll
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.xml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\bin\Debug\EntityFramework.SqlServer.xml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.AssemblyReference.cache
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\App.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_Content.g.cs
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.cache
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project_MarkupCompile.lref
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DoctorHome.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\LoginPage.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\MainWindow.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\NursePage.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\PatientHome.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\SignUpPage.baml
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.g.resources
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.Properties.Resources.resources
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.GenerateResource.cache
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.csproj.CoreCompileInputs.cache
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospi.8DE1F09D.Up2Date
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.exe
+F:\School\Software\Desktop\WPF Programs\DB_Hospital_Project\DB_Hospital_Project\obj\Debug\DB_Hospital_Project.pdb

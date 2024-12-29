@@ -1,0 +1,31 @@
+﻿<Page x:Class="DB_Hospital_Project.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DB_Hospital_Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Grid Background="White">
+
+        <Label Content="username" Foreground="Black" FontSize="45" FontWeight="Bold" HorizontalAlignment="Left" Margin="66,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="password" Foreground="Black" FontSize="45" FontWeight="Bold" HorizontalAlignment="Left" Margin="66,171,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="username_txtbox" TextWrapping="Wrap" Text="" Margin="321,104,83,295" BorderBrush="#FF0342FF"/>
+        <TextBox x:Name="password_txtbox" TextWrapping="Wrap" Text="" Margin="321,190,83,205" BorderBrush="#FF1346E2"/>
+        <Button x:Name="Login_button" Content="Login" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="583,272,0,0" VerticalAlignment="Top" Background="#FFBA4545" Height="55" Width="134" Click="Login_Click"/>
+        <Button x:Name="Signup_button" Content="Sign up" FontSize="20"  FontWeight="Bold" HorizontalAlignment="Left" Margin="402,329,0,0" VerticalAlignment="Top" Height="45" Width="122" Click="SignUP_Click" Foreground="#FF3C60D4">
+            <Button.Background>
+                <SolidColorBrush Color="#FFBA4545" Opacity="0"/>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="Hos_combobox" HorizontalAlignment="Left" Margin="51,19,0,0" VerticalAlignment="Top" Width="225" Height="42" SelectionChanged="Hos_combobox_SelectionChanged">
+            <ComboBoxItem>Doctor</ComboBoxItem>
+            <ComboBoxItem Content="Patient"/>
+            <ComboBoxItem Content="Nurse"/>
+        </ComboBox>
+        <Label Content="Don't have an account?" FontSize="20" Margin="174,333,370,62"/>
+        <Label x:Name="label" Content="Login" FontSize="45" FontWeight="Bold" HorizontalAlignment="Left" Margin="359,10,0,0" VerticalAlignment="Top" Height="72" Width="289"/>
+    </Grid>
+</Page>

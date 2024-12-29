@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Hospital_Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="doctors">
+    <Key>
+      <PropertyRef Name="doc_id" />
+    </Key>
+    <Property Name="doc_id" Type="smallint" Nullable="false" />
+    <Property Name="doc_name" Type="varchar" MaxLength="255" />
+    <Property Name="doc_address" Type="varchar" MaxLength="255" />
+    <Property Name="phone_number" Type="int" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="specification" Type="varchar" MaxLength="255" />
+    <Property Name="salary" Type="int" />
+  </EntityType>
+  <EntityType Name="medicines">
+    <Key>
+      <PropertyRef Name="med_code" />
+    </Key>
+    <Property Name="med_code" Type="smallint" Nullable="false" />
+    <Property Name="med_name" Type="varchar" MaxLength="255" />
+    <Property Name="price" Type="int" />
+    <Property Name="med_country" Type="varchar" MaxLength="255" />
+    <Property Name="exp_date" Type="date" />
+  </EntityType>
+  <EntityType Name="nurses">
+    <Key>
+      <PropertyRef Name="nurse_id" />
+    </Key>
+    <Property Name="nurse_id" Type="smallint" Nullable="false" />
+    <Property Name="nurse_name" Type="varchar" MaxLength="255" />
+    <Property Name="position" Type="varchar" MaxLength="255" />
+    <Property Name="salary" Type="int" />
+    <Property Name="room_no" Type="smallint" />
+  </EntityType>
+  <EntityType Name="patients">
+    <Key>
+      <PropertyRef Name="ssn" />
+    </Key>
+    <Property Name="ssn" Type="smallint" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="255" />
+    <Property Name="lanme" Type="varchar" MaxLength="255" />
+    <Property Name="age" Type="smallint" />
+    <Property Name="gender" Type="varchar" MaxLength="50" />
+    <Property Name="doc_id" Type="smallint" />
+    <Property Name="room_no" Type="smallint" />
+    <Property Name="nurse_id" Type="smallint" />
+    <Property Name="med_code" Type="smallint" />
+  </EntityType>
+  <EntityType Name="rooms">
+    <Key>
+      <PropertyRef Name="room_no" />
+    </Key>
+    <Property Name="room_no" Type="smallint" Nullable="false" />
+    <Property Name="room_type" Type="varchar" MaxLength="255" />
+    <Property Name="room_status" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__nurses__room_no__4D94879B">
+    <End Role="rooms" Type="Self.rooms" Multiplicity="0..1" />
+    <End Role="nurses" Type="Self.nurses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rooms">
+        <PropertyRef Name="room_no" />
+      </Principal>
+      <Dependent Role="nurses">
+        <PropertyRef Name="room_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__patients__doc_id__52593CB8">
+    <End Role="doctors" Type="Self.doctors" Multiplicity="0..1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="doctors">
+        <PropertyRef Name="doc_id" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="doc_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__patients__med_co__5535A963">
+    <End Role="medicines" Type="Self.medicines" Multiplicity="0..1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medicines">
+        <PropertyRef Name="med_code" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="med_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__patients__nurse___5441852A">
+    <End Role="nurses" Type="Self.nurses" Multiplicity="0..1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nurses">
+        <PropertyRef Name="nurse_id" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="nurse_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__patients__room_n__534D60F1">
+    <End Role="rooms" Type="Self.rooms" Multiplicity="0..1" />
+    <End Role="patients" Type="Self.patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rooms">
+        <PropertyRef Name="room_no" />
+      </Principal>
+      <Dependent Role="patients">
+        <PropertyRef Name="room_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Hospital_Model1StoreContainer">
+    <EntitySet Name="doctors" EntityType="Self.doctors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="medicines" EntityType="Self.medicines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="nurses" EntityType="Self.nurses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="patients" EntityType="Self.patients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="rooms" EntityType="Self.rooms" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__nurses__room_no__4D94879B" Association="Self.FK__nurses__room_no__4D94879B">
+      <End Role="rooms" EntitySet="rooms" />
+      <End Role="nurses" EntitySet="nurses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__patients__doc_id__52593CB8" Association="Self.FK__patients__doc_id__52593CB8">
+      <End Role="doctors" EntitySet="doctors" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__patients__med_co__5535A963" Association="Self.FK__patients__med_co__5535A963">
+      <End Role="medicines" EntitySet="medicines" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__patients__nurse___5441852A" Association="Self.FK__patients__nurse___5441852A">
+      <End Role="nurses" EntitySet="nurses" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__patients__room_n__534D60F1" Association="Self.FK__patients__room_n__534D60F1">
+      <End Role="rooms" EntitySet="rooms" />
+      <End Role="patients" EntitySet="patients" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
